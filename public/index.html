@@ -1,13 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mantenimiento con RESTXQ</title>
-</head>
-<body>
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- My personal stylesheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Boostrap api stylesheets -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>Mantenimiento con RESTXQ</title>
+  </head>
 
-  
-</body>
+  <body>
+    <section class="container col-12">
+      <form action="/">
+        <div class="container-id">
+          <label for="id" class="id-label">ID: </label>
+          <input
+            type="text"
+            class="id-input"
+            id="id-input"
+            placeholder="Enter id..."
+            name="id"
+          />
+        </div>
+        <div class="container-brand...">
+          <label for="brand" class="brand-Label">Marca: </label>
+          <input
+            type="text"
+            class="brand-input"
+            id="brand-input"
+            placeholder="Enter brand..."
+            name="brand"
+          />
+        </div>
+        <div class="container-model">
+          <label for="model" class="model-Label">Modelo: </label>
+          <input
+            type="text"
+            class="model-input"
+            id="model-input"
+            placeholder="Enter model..."
+            name="model"
+          />
+        </div>
+        <div class="container-year">
+          <label for="year" class="brand-year">Year: </label>
+          <input
+            type="text"
+            class="year-input"
+            id="year-input"
+            placeholder="Enter year..."
+            name="year"
+          />
+        </div>
+        <div class="container-color">
+          <label for="color" class="brand-Label">Color: </label>
+          <input
+            type="text"
+            class="color-input"
+            id="color-input"
+            placeholder="Enter color..."
+            name="color"
+          />
+        </div>
+        <div class="container-price">
+          <label for="price" class="price-Label">Price: </label>
+          <input
+            type="text"
+            class="price-input"
+            id="price"
+            placeholder="Enter price..."
+            name="price"
+          />
+        </div>
+        <div class="container-safety">
+          <label for="safety" class="safety-Label">Safety feature: </label>
+          <input
+            type="text"
+            class="safety-input"
+            id="safety"
+            placeholder="Enter safety features..."
+            name="safety"
+          />
+        </div>
+        <div class="container-entertainment">
+          <label for="entertainment" class="entertainment-Label"
+            >Entertainment feature:
+          </label>
+          <input
+            type="text"
+            class="entertainment-input"
+            id="entertainment"
+            placeholder="Enter entertainment features..."
+            name="entertainment"
+          />
+        </div>
+        <div class="form-btn">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+      <div class="content-cars col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12">
+        <p class="h2">Coches</p>
+        <hr />
+        <div class="list-cars">
+          <table class="table table-striped">
+            <thead>
+              <th>&nbsp;</th>
+              <th>Id</th>
+              <th>Marca</th>
+              <th>Modelo</th>
+              <th>Año</th>
+              <th>Color</th>
+              <th>Precio</th>
+              <th>Safety features</th>
+              <th>Entertainment features</th>
+            </thead>
+            <tbody>
+              <tr class="car">
+                <td class="edit-car">
+                  <i id="pencil" class="fa-regular fa-pen-to-square"></i>
+                  <i id="trash" class="fa-solid fa-trash"></i>
+                </td>
+                <td>1</td>
+                <td>Toyota</td>
+                <td>Hillux</td>
+                <td>2/28/2018</td>
+                <td>Rojo</td>
+                <td>37.250</td>
+                <td>ABS, Hill Holder, 4WD</td>
+                <td>Pantalla tactil, Audio 8D</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- Font awesome api -->
+    <script
+      src="https://kit.fontawesome.com/41364728e3.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- My personal script -->
+    <script src="./javascript/main.js"></script>
+  </body>
 </html>

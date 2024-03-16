@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cars>
+  <car>
+    <id>1</id>
+    <brand>Ford</brand>
+    <model>Mustang</model>
+    <details>
+      <year>2022</year>
+      <color>Blue</color>
+      <price>45000</price>
+    </details>
+    <features>
+      <safety>Airbags, ABS</safety>
+      <entertainment>Premium audio</entertainment>
+    </features>
+  </car>
+  <car>
+    <id>2</id>
+    <brand>Toyota</brand>
+    <model>Corolla</model>
+    <details>
+      <year>2023</year>
+      <color>Red</color>
+      <price>28000</price>
+    </details>
+    <features>
+      <safety>Airbags, ABS</safety>
+      <entertainment>Touchscreen</entertainment>
+    </features>
+  </car>
+  <car>
+    <id>3</id>
+    <brand>Chevrolet</brand>
+    <model>Malibu</model>
+    <details>
+      <year>2022</year>
+      <color>White</color>
+      <price>32000</price>
+    </details>
+    <features>
+      <safety>Airbags, ABS</safety>
+      <entertainment>Infotainment system</entertainment>
+    </features>
+  </car>
+  <car>
+    <id>4</id>
+    <brand>Honda</brand>
+    <model>Civic</model>
+    <details>
+      <year>2023</year>
+      <color>Black</color>
+      <price>25000</price>
+    </details>
+    <features>
+      <safety>Airbags, ABS</safety>
+      <entertainment>Basic audio system</entertainment>
+    </features>
+  </car>
+  <car>
+    <id>5</id>
+    <brand>BMW</brand>
+    <model>3 Series</model>
+    <details>
+      <year>2023</year>
+      <color>Silver</color>
+      <price>40000</price>
+    </details>
+    <features>
+      <safety>Airbags, ABS</safety>
+      <entertainment>Harman Kardon sound system</entertainment>
+    </features>
+  </car>
+</cars>
